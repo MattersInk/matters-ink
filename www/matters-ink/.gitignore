@@ -1,8 +1,8 @@
-
-**/__sapper__/**
-
-**/.cache/**
-**/node_modules/**
+.DS_Store
+/node_modules/
+/src/node_modules/@sapper/
+yarn-error.log
+/__sapper__/
 
 # Logs
 logs
@@ -122,3 +122,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+**/__sapper__/**
